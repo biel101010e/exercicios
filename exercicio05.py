@@ -1,12 +1,13 @@
-def cadastrar_aluno(nome, email, serie):
+def cadastrar_aluno(nome, email, serie, nota01, nota02, nota03):
     alunos = []
     aluno = {
         "nome": nome,
         "email": email,
-        "serie": serie
+        "serie": serie,
+        "nota": [nota01, nota02, nota03]
     }
     
     alunos.append(aluno)
     return alunos
 
-print(cadastrar_aluno ("capixaba", "gabriel08@gmail.com", "2° TB"))
+print(cadastrar_aluno ("capixaba", "gabriel08@gmail.com", "2° TB", 8, 9, 5))

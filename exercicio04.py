@@ -1,11 +1,11 @@
-def  somar_e_calcular_media(numeros):
-    if not numeros:
-        print("a lista está vazia.")
-        return
-    
-soma = sum(numeros)
-media = soma / len(numeros)
+def  somar_e_calcular_media(lista):
+    total = 0 
+    for i in lista:
+        total += i
+    media = total/len(lista)
+    return total
 
-print(f"soma:{soma}")
-print(f"média {media}")
+
+print(somar_e_calcular_media())
+
 
