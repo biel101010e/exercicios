@@ -47,7 +47,7 @@ def mostrar_filmes(filmes):
         print("não existe nenhum filme cadastrado.")
 
 
-def inciar_sitema():
+def iniciar_sistema():
     db_filmes = carregar_dados()
 
     while True:
@@ -69,6 +69,8 @@ def inciar_sitema():
             break
         else:
             print("opção invalida, escolha uma das opções do menu.")
+
+iniciar_sistema()
       
             
 
