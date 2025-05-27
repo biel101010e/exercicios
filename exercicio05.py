@@ -33,6 +33,7 @@ def cadastrar_aluno(nome, email, serie, nota01=0, nota02=0, nota03=0):
     
 
 def mostrar_dados_alunos(dados_alunos):
+    
     for aluno in dados_alunos:
         print(f"nome do aluno: {aluno["nome"]} | Email do aluno: {aluno["email"]} | Serie do aluno {aluno["serie"]} | notas do aluno: {aluno["notas"]} | media dos aluno: {aluno["media"]}")
     return

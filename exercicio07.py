@@ -1,4 +1,4 @@
-clientes = []
+#clientes = []
 
 def obter_dados_dos_clientes():
     nome_cliente = input("informe seu nome completo")
