@@ -1,0 +1,14 @@
+[
+    {
+        "modelo_carro": "sdfgh",
+        "marca_carro": "dfghjkl",
+        "cor_carro": "dfghj",
+        "ano_carro": 4560
+    },
+    {
+        "modelo_carro": "huracan",
+        "marca_carro": "lamborghini",
+        "cor_carro": "roxo",
+        "ano_carro": 2025
+    }
+]

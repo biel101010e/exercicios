@@ -1,0 +1,11 @@
+[
+    {
+        "id_roupa": 1,
+        "nome_roupa": "nike dri-fit",
+        "descricao_roupa": "camisa confortavel",
+        "tamanho": "m",
+        "cor": "preta",
+        "valor": 80.0,
+        "quantidade": 1
+    }
+]

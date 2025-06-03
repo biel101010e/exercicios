@@ -12,9 +12,9 @@ def cadastrar_dados():
     
 def obter_dados():
     modelo_carro = input("digite o modelo do carro:")
-    marca_carro = input("digite o modelo do carro:")
-    cor_carro = input("digite o modelo do carro:")
-    ano_carro = int("digite o modelo do carro:")
+    marca_carro = input("digite o marca do carro:")
+    cor_carro = input("digite o cor do carro:")
+    ano_carro = int(input("digite o ano do carro:"))
 
     data_carro = {
         "modelo_carro": modelo_carro,
@@ -56,7 +56,7 @@ def iniciar_sistema():
         print("sair do sistema")
         print("="*80)
 
-        opcao = input("escolha uma das opções do menu")
+        opcao = input("escolha uma das opções do menu:")
 
         if opcao == "1":
             mostrar_carros(db_carro)
